@@ -1,0 +1,19 @@
+/* BORDER & RADIUS */
+.br { border: 1px solid; }
+.rounded { border-radius: 0.5rem; }
+.rounded-lg { border-radius: 1rem; }
+.rounded-circle { border-radius: 50%; }
+
+.bc-primary { border-color: var(--color-primary); }
+.bc-secondary { border-color: var(--color-secondary); }
+.bc-white { border-color: var(--color-white); }
+.bc-black { border-color: var(--color-black); }
+.bc-red { border-color: var(--color-red); }
+.bc-green { border-color: var(--color-green); }
+.bc-yellow { border-color: var(--color-yellow); }
+.bc-purple { border-color: var(--color-purple); }
+.bc-pink { border-color: var(--color-pink); }
+.bc-orange { border-color: var(--color-orange); }
+.bc-gray { border-color: var(--color-gray); }
+.bc-lightgray { border-color: var(--color-lightgray); }
+.bc-darkgray { border-color: var(--color-darkgray); }
