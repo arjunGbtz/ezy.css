@@ -1,4 +1,10 @@
-/* GRID */
+/*!
+ * ezy.css v1.0.0
+ * Copyright (C) 2025 Arjun Gaubatz
+ * Licensed under the GNU General Public License v3.0
+ * See LICENSE file for details: https://www.gnu.org/licenses/gpl-3.0.txt
+ */
+
 .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));}
 .grid-2 { grid-template-columns: repeat(2, 1fr); }
 .grid-3 { grid-template-columns: repeat(3, 1fr); }

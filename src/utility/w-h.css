@@ -1,4 +1,10 @@
-/* WIDTHS & HEIGHTS */
+/*!
+ * ezy.css v1.0.0
+ * Copyright (C) 2025 Arjun Gaubatz
+ * Licensed under the GNU General Public License v3.0
+ * See LICENSE file for details: https://www.gnu.org/licenses/gpl-3.0.txt
+ */
+
 .w-25 { width: 25%; }
 .w-50 { width: 50%; }
 .w-75 { width: 75%; }
