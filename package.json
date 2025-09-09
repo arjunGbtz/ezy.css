@@ -1,0 +1,31 @@
+{
+  "name": "ezy.css",
+  "version": "1.0.0",
+  "description": "A lightweight, glass-first CSS utility framework with components.",
+  "main": "dist/ezy.min.css",
+  "scripts": {
+    "build": "npm run build:css && npm run build:dev",
+    "build:css": "postcss src/ezy.css -o dist/ezy.min.css",
+    "build:dev": "postcss src/ezy.css -o dist/ezy.css --no-map"
+  },
+  "keywords": [
+    "css",
+    "utility",
+    "framework",
+    "glassmorphism",
+    "components",
+    "postcss"
+  ],
+  "author": "Arjun Gaubatz",
+  "license": "GPL-3.0",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.1.1",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.1"
+  }
+}
