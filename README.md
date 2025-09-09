@@ -6,9 +6,10 @@
 
 ### Manual
 Download the ezy.min.css and include it in your HTML
+
 `<link rel="stylesheet" href="path/to/ezy.min.css">`
 
-### Currently no package manager supported
+Currently no package manager supported
 
 ## Usage
 Include the CSS file in your project and use utility classes directly in your HTML
