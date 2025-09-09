@@ -26,6 +26,7 @@
 .deco-gray { text-decoration-color: var(--color-gray); }
 .deco-lightgray { text-decoration-color: var(--color-lightgray); }
 .deco-darkgray { text-decoration-color: var(--color-darkgray); }
+.deco-none { text-decoration: none; }
 
 /* CURSORS */
 .cursor-pointer { cursor: pointer; }

@@ -9,8 +9,7 @@ dist/
 .DS_Store
 Thumbs.db
 
+test.html
 .vscode/
 .idea/
 *.swp
-
-tests
