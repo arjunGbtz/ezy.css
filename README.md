@@ -5,9 +5,12 @@
 ## Installation
 
 ### Manual
-Download the ezy.min.css and include it in your HTML
+Download the ezy.min.css and the ezy.js and include it in your HTML
 
-`<link rel="stylesheet" href="path/to/ezy.min.css">`
+```html
+<link rel="stylesheet" href="path/to/ezy.min.css">
+<script src="path/to/ezy.js" defer></script>
+```
 
 Currently no package manager supported
 
