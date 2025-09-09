@@ -3,21 +3,25 @@
 .m-3 { margin: var(--sp-3); }
 .m-4 { margin: var(--sp-4); }
 .m-5 { margin: var(--sp-5); }
+.m-auto { margin: auto; }
 
 .mt-1 { margin-top: var(--sp-1); }
 .mt-2 { margin-top: var(--sp-2); }
 .mt-3 { margin-top: var(--sp-3); }
 .mt-4 { margin-top: var(--sp-4); }
 .mt-5 { margin-top: var(--sp-5); }
+.mt-auto { margin-top: auto; }
 
 .mb-1 { margin-bottom: var(--sp-1); }
 .mb-2 { margin-bottom: var(--sp-2); }
 .mb-3 { margin-bottom: var(--sp-3); }
 .mb-4 { margin-bottom: var(--sp-4); }
 .mb-5 { margin-bottom: var(--sp-5); }
+.mb-auto { margin-bottom: auto; }
 
 .p-1 { padding: var(--sp-1); }
 .p-2 { padding: var(--sp-2); }
 .p-3 { padding: var(--sp-3); }
 .p-4 { padding: var(--sp-4); }
 .p-5 { padding: var(--sp-5); }
+.p-auto { padding: auto; }
