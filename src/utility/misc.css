@@ -2,10 +2,6 @@
 .shadow-lg { box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); }
 .shadow-inset { box-shadow: inset 0 2px 4px rgba(0,0,0,0.1); }
 
-.hover-shadow:hover { box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
-.hover-scale:hover { transform: scale(1.05); }
-.hover-opacity:hover { opacity: 0.7; }
-
 .deco-primary { text-decoration-color: var(--color-primary); }
 .deco-secondary { text-decoration-color: var(--color-secondary); }
 .deco-white { text-decoration-color: var(--color-white); }
