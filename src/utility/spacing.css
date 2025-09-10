@@ -19,6 +19,20 @@
 .mb-5 { margin-bottom: var(--sp-5); }
 .mb-auto { margin-bottom: auto; }
 
+.ml-1 { margin-left: var(--sp-1); }
+.ml-2 { margin-left: var(--sp-2); }
+.ml-3 { margin-left: var(--sp-3); }
+.ml-4 { margin-left: var(--sp-4); }
+.ml-5 { margin-left: var(--sp-5); }
+.ml-auto { margin-left: auto; }
+
+.mr-1 { margin-right: var(--sp-1); }
+.mr-2 { margin-right: var(--sp-2); }
+.mr-3 { margin-right: var(--sp-3); }
+.mr-4 { margin-right: var(--sp-4); }
+.mr-5 { margin-right: var(--sp-5); }
+.mr-auto { margin-right: auto; }
+
 .p-1 { padding: var(--sp-1); }
 .p-2 { padding: var(--sp-2); }
 .p-3 { padding: var(--sp-3); }

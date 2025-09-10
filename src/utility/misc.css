@@ -8,6 +8,7 @@
 .deco-black { text-decoration-color: var(--color-black); }
 .deco-red { text-decoration-color: var(--color-red); }
 .deco-green { text-decoration-color: var(--color-green); }
+.deco-blue { text-decoration-color: var(--color-blue); }
 .deco-yellow { text-decoration-color: var(--color-yellow); }
 .deco-purple { text-decoration-color: var(--color-purple); }
 .deco-pink { text-decoration-color: var(--color-pink); }

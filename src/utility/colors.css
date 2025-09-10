@@ -4,6 +4,7 @@
 .bg-black { background-color: var(--color-black); }
 .bg-red { background-color: var(--color-red); }
 .bg-green { background-color: var(--color-green); }
+.bg-blue { background-color: var(--color-blue); }
 .bg-yellow { background-color: var(--color-yellow); }
 .bg-purple { background-color: var(--color-purple); }
 .bg-pink { background-color: var(--color-pink); }
@@ -19,6 +20,7 @@
 .text-black { color: var(--color-black); }
 .text-red { color: var(--color-red); }
 .text-green { color: var(--color-green); }
+.text-blue { color: var(--color-blue); }
 .text-yellow { color: var(--color-yellow); }
 .text-purple { color: var(--color-purple); }
 .text-pink { color: var(--color-pink); }
