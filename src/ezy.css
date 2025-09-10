@@ -5,7 +5,9 @@
  * See LICENSE file for details: https://www.gnu.org/licenses/gpl-3.0.txt
  */
 
-@import "utility/root.css";
+@import "root.css";
+@import "animations.css";
+
 @import "utility/border+radius.css";
 @import "utility/colors.css";
 @import "utility/display.css";
@@ -16,7 +18,11 @@
 @import "utility/text.css";
 @import "utility/w-h.css";
 
-@import "animations.css";
-
 @import "components/buttons.css";
 @import "components/cards.css";
+@import "components/nav.css";
+@import "components/badge.css";
+@import "components/alert.css";
+@import "components/modal.css";
+@import "components/forms.css";
+@import "components/table.css";

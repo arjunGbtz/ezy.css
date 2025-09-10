@@ -1,56 +1,28 @@
-.btn-bg-primary { background: var(--color-primary); }
-.btn-bg-secondary { background: var(--color-secondary); }
-.btn-bg-white { background: var(--color-white); }
-.btn-bg-black { background: var(--color-black); }
-.btn-bg-red { background: var(--color-red); }
-.btn-bg-green { background: var(--color-green); }
-.btn-bg-yellow { background: var(--color-yellow); }
-.btn-bg-purple { background: var(--color-purple); }
-.btn-bg-pink { background: var(--color-pink); }
-.btn-bg-orange { background: var(--color-orange); }
-.btn-bg-gray { background: var(--color-gray); }
-.btn-bg-lightgray { background: var(--color-lightgray); }
-.btn-bg-darkgray { background: var(--color-darkgray); }
-
-.btn-text-primary { color: var(--color-primary); }
-.btn-text-secondary { color: var(--color-secondary); }
-.btn-text-white { color: var(--color-white); }
-.btn-text-black { color: var(--color-black); }
-.btn-text-red { color: var(--color-red); }
-.btn-text-green { color: var(--color-green); }
-.btn-text-yellow { color: var(--color-yellow); }
-.btn-text-purple { color: var(--color-purple); }
-.btn-text-pink { color: var(--color-pink); }
-.btn-text-orange { color: var(--color-orange); }
-.btn-text-gray { color: var(--color-gray); }
-.btn-text-lightgray { color: var(--color-lightgray); }
-.btn-text-darkgray { color: var(--color-darkgray); }
-
 .btn {
-  display: inline-block;
-  padding: 0.5rem 1.25rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  text-align: center;
-  border: none;
-  border-radius: 0;
-  background: var(--color-gray);
-  color: var(--color-white);
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    background: var(--color-gray);
+    color: var(--color-white);
 }
 .btn-border { border: 1px solid currentColor; }
 .btn-outline {
-  background: transparent;
-  border: 1px solid var(--color-lightgray);
-  color: var(--color-lightgray);
+    background: transparent;
+    border: 1px solid var(--color-lightgray);
+    color: var(--color-lightgray);
 }
 .btn-outline:hover {
-  border-color: var(--color-white);
-  color: var(--color-white);
+    border-color: var(--color-white);
+    color: var(--color-white);
 }
 .btn-glass {
-  background: rgba(255,255,255,0.1);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255,255,255,0.2);
-  color: var(--color-white);
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: var(--color-white);
 }

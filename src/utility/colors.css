@@ -11,7 +11,7 @@
 .bg-gray { background-color: var(--color-gray); color: var(--color-white); }
 .bg-lightgray { background-color: var(--color-lightgray); color: var(--color-black); }
 .bg-darkgray { background-color: var(--color-darkgray); color: var(--color-white); }
-.no-bg { background: none; box-shadow: none; }
+.bg-none { background: none; box-shadow: none; }
 
 .text-primary { color: var(--color-primary); }
 .text-secondary { color: var(--color-secondary); }

@@ -1,45 +1,17 @@
-.card-bg-primary { background: var(--color-primary); }
-.card-bg-secondary { background: var(--color-secondary); }
-.card-bg-white { background: var(--color-white); }
-.card-bg-black { background: var(--color-black); }
-.card-bg-red { background: var(--color-red); }
-.card-bg-green { background: var(--color-green); }
-.card-bg-yellow { background: var(--color-yellow); }
-.card-bg-purple { background: var(--color-purple); }
-.card-bg-pink { background: var(--color-pink); }
-.card-bg-orange { background: var(--color-orange); }
-.card-bg-gray { background: var(--color-gray); }
-.card-bg-lightgray { background: var(--color-lightgray); }
-.card-bg-darkgray { background: var(--color-darkgray); }
-
-.card-text-primary { color: var(--color-primary); }
-.card-text-secondary { color: var(--color-secondary); }
-.card-text-white { color: var(--color-white); }
-.card-text-black { color: var(--color-black); }
-.card-text-red { color: var(--color-red); }
-.card-text-green { color: var(--color-green); }
-.card-text-yellow { color: var(--color-yellow); }
-.card-text-purple { color: var(--color-purple); }
-.card-text-pink { color: var(--color-pink); }
-.card-text-orange { color: var(--color-orange); }
-.card-text-gray { color: var(--color-gray); }
-.card-text-lightgray { color: var(--color-lightgray); }
-.card-text-darkgray { color: var(--color-darkgray); }
-
 .card {
-  padding: 1.5rem;
-  border-radius: 1rem;
-  transition: all 0.3s ease;
-  border: none;
-  display: block;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    border: none;
+    display: block;
 }
 .card-border { border: 1px solid currentColor; }
 .card-glass {
-  backdrop-filter: blur(10px);
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.2);
-  box-shadow: inset 0 0 10px rgba(255,255,255,0.15);
-  color: var(--color-white);
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: inset 0 0 10px rgba(255,255,255,0.15);
+    color: var(--color-white);
 }
 .card-shadow { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
 .card-shadow-lg { box-shadow: 0 10px 15px rgba(0,0,0,0.2); }

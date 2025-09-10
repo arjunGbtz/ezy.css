@@ -1,0 +1,5 @@
+.alert {
+    padding: var(--sp-2) var(--sp-3);
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
