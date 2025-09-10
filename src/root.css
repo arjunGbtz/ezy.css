@@ -1,5 +1,4 @@
 :root {
-    /* COLORS */
     --color-primary: #f0f0f0;
     --color-secondary: #010101;
     --color-white: #ffffff;
@@ -14,10 +13,14 @@
     --color-lightgray: #bdc3c7;
     --color-darkgray: #34495e;
 
-    /* SPACING SCALE */
     --sp-1: 0.25rem;
     --sp-2: 0.5rem;
     --sp-3: 1rem;
     --sp-4: 1.5rem;
     --sp-5: 3rem;
+
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 1rem;
+    --radius-full: 9999px;
 }

@@ -1,11 +1,9 @@
 .card {
     padding: 1.5rem;
-    border-radius: 1rem;
     transition: all 0.3s ease;
     border: none;
     display: block;
 }
-.card-border { border: 1px solid currentColor; }
 .card-glass {
     backdrop-filter: blur(10px);
     background: rgba(255,255,255,0.05);
@@ -13,6 +11,3 @@
     box-shadow: inset 0 0 10px rgba(255,255,255,0.15);
     color: var(--color-white);
 }
-.card-shadow { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-.card-shadow-lg { box-shadow: 0 10px 15px rgba(0,0,0,0.2); }
-.card-shadow-inset { box-shadow: inset 0 2px 4px rgba(0,0,0,0.1); }

@@ -1,9 +1,10 @@
 .br { border: 1px solid; }
 .borderless { border: none; }
 
-.rounded { border-radius: 0.5rem; }
-.rounded-lg { border-radius: 1rem; }
-.rounded-circle { border-radius: 50%; }
+.rounded     { border-radius: var(--radius-md); }
+.rounded-lg  { border-radius: var(--radius-lg); }
+.rounded-sm  { border-radius: var(--radius-sm); }
+.rounded-full{ border-radius: var(--radius-full); }
 
 .bc-primary { border-color: var(--color-primary); }
 .bc-secondary { border-color: var(--color-secondary); }
