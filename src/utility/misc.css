@@ -2,22 +2,6 @@
 .shadow-lg { box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); }
 .shadow-inset { box-shadow: inset 0 2px 4px rgba(0,0,0,0.1); }
 
-.deco-primary { text-decoration-color: var(--color-primary); }
-.deco-secondary { text-decoration-color: var(--color-secondary); }
-.deco-white { text-decoration-color: var(--color-white); }
-.deco-black { text-decoration-color: var(--color-black); }
-.deco-red { text-decoration-color: var(--color-red); }
-.deco-green { text-decoration-color: var(--color-green); }
-.deco-blue { text-decoration-color: var(--color-blue); }
-.deco-yellow { text-decoration-color: var(--color-yellow); }
-.deco-purple { text-decoration-color: var(--color-purple); }
-.deco-pink { text-decoration-color: var(--color-pink); }
-.deco-orange { text-decoration-color: var(--color-orange); }
-.deco-gray { text-decoration-color: var(--color-gray); }
-.deco-lightgray { text-decoration-color: var(--color-lightgray); }
-.deco-darkgray { text-decoration-color: var(--color-darkgray); }
-.deco-none { text-decoration: none; }
-
 .cursor-pointer { cursor: pointer; }
 .cursor-default { cursor: default; }
 .cursor-move { cursor: move; }
