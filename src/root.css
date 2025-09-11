@@ -14,6 +14,9 @@
     --color-lightgray: #bdc3c7;
     --color-darkgray: #34495e;
 
+    --color-success: #18a058;
+    --color-error: #c00000;
+
     --sp-1: 0.25rem;
     --sp-2: 0.5rem;
     --sp-3: 0.75rem;
