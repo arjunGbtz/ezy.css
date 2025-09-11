@@ -2,9 +2,34 @@
 .grid-2 { grid-template-columns: repeat(2, 1fr); }
 .grid-3 { grid-template-columns: repeat(3, 1fr); }
 .grid-4 { grid-template-columns: repeat(4, 1fr); }
+.grid-5 { grid-template-columns: repeat(5, 1fr); }
 
 .gap-1 { gap: var(--sp-1); }
 .gap-2 { gap: var(--sp-2); }
 .gap-3 { gap: var(--sp-3); }
 .gap-4 { gap: var(--sp-4); }
 .gap-5 { gap: var(--sp-5); }
+
+@media (min-width: 640px) {
+  .sm\:grid { display: grid; }
+  .sm\:grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .sm\:grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .sm\:grid-4 { grid-template-columns: repeat(4, 1fr); }
+  .sm\:grid-5 { grid-template-columns: repeat(5, 1fr); }
+}
+
+@media (min-width: 768px) {
+  .md\:grid { display: grid; }
+  .md\:grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .md\:grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .md\:grid-4 { grid-template-columns: repeat(4, 1fr); }
+  .md\:grid-5 { grid-template-columns: repeat(5, 1fr); }
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid { display: grid; }
+  .lg\:grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .lg\:grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .lg\:grid-4 { grid-template-columns: repeat(4, 1fr); }
+  .lg\:grid-5 { grid-template-columns: repeat(5, 1fr); }
+}
