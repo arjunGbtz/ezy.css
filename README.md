@@ -4,35 +4,68 @@
 
 ## Installation
 
-### Manual
-Download the ezy.min.css and the ezy.js and include it in your HTML
+Currently, ezy.css is not available via npm or CDN.
+
+### Manuell (recommended)
+  
+1. Download `ezy.zip` from the [GitHub Releases](https://github.com/arjungbtz/ezy.css/releases).
+2. Extract the ZIP. You will get a folder named `ezy/` containing: `ezy/ezy.js`, `ezy/helper.js` and `ezy/ezy.min.css`
+3. link `ezy/ezy.js` & `ezy/ezy.min.css` in your HTML:
 
 ```html
-<link rel="stylesheet" href="path/to/ezy.min.css">
-<script src="path/to/ezy.js" defer></script>
+<link rel="stylesheet" href="ezy/ezy.min.css">
+<script src="ezy/ezy.js"></script>
 ```
 
-Currently no package manager supported
+### Via Shell (advanced)
+
+You can download the files directly with curl or wget
+
+Unix:
+```sh
+curl -L -o ezy.zip https://github.com/arjunGbtz/ezy.css/releases/download/v1.0.0/ezy.zip
+unzip ezy.zip
+
+```
+
+Powershell:
+```sh
+Invoke-WebRequest -Uri "https://github.com/arjunGbtz/ezy.css/releases/download/v1.0.0/ezy.zip" -OutFile "ezy.zip"
+Expand-Archive -Path ezy.zip -DestinationPath .
+```
+
+After extraction, you'll have the same `ezy/` folder as in the manual method.
+
 
 ## Usage
-Include the CSS file in your project and use utility classes directly in your HTML
-```html 
-<div class="flex flex-center p-4 bg-primary text-white">
-  <h1 class="text-xl">Welcome to ezy.css</h1>
-</div> 
+
+Then you can start using ezy.css utilities:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Ezy Project</title>
+    <link rel="stylesheet" href="ezy/ezy.min.css">
+    <script src="ezy/ezy.js"></script>
+</head>
+<body>
+    <button class="btn bg-blue text-white rounded">Click Me</button>
+</body>
+</html>
 ```
 
 ## Features
-* Utility-first: Build layouts quickly with pre-made classes.
-* Flexbox & Grid: Combine both layout methods for full flexibility.
-* Customizable: Use CSS variables to tweak colors, spacing, and more.
-* Lightweight & fast: Small file size for quick loading.
-* Glass-first components: Optional modern UI components like cards and buttons.
+- ⚡ Fast: Ready-to-use utility classes & components
+- ☕ Responsive: Mobile-first grid & flex utilities
+- ✨ Animated: Simple animation attributes like `ezy-animate="fade-in"`
+- 🎨 Customizable: Add custom colors easy via json
 
-## Development
-Clone the repository and install dependencies
+### Development
+Clone the repository:
 ```bash
-git clone https://github.com/arjunGbtz/ezy.css.git
+git clone https://github.com/arjungbtz/ezy.css.git
 cd ezy.css
 npm install
 ```
