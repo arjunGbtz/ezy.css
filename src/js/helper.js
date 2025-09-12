@@ -33,6 +33,7 @@ function createCustomBlock(colors) {
         block += `.bg-${key}{background-color:var(--color-${key});}`;
         block += `.text-${key}{color:var(--color-${key});}`;
         block += `.bc-${key}{border-color:var(--color-${key});}`;
+        block += `.deco-${key}{text-decoration-color: var(--color-${key});}`;
     });
     block += BLOCK_END;
     return block;
