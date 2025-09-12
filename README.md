@@ -23,7 +23,7 @@ You can download the files directly with curl or wget
 
 Unix:
 ```sh
-curl -L -o ezy.zip https://github.com/arjunGbtz/ezy.css/releases/download/v1.0.0-nightly.1/ezy.zip
+curl -L -o ezy.zip https://github.com/arjunGbtz/ezy.css/releases/download/v1.0.0-nightly.1/ezy.zip 
 unzip ezy.zip
 
 ```
