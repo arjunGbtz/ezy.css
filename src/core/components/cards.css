@@ -3,10 +3,16 @@
     border: none;
     display: block;
 }
-.card-glass {
-    backdrop-filter: blur(10px);
-    background: rgba(255,255,255,0.05);
+.card-glass { /* Fallback */
+    background: rgba(255,255,255,0.15);
     border: 1px solid rgba(255,255,255,0.2);
     box-shadow: inset 0 0 10px rgba(255,255,255,0.15);
     color: var(--color-white);
+}
+@supports ((backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px))) {
+    .card-glass {
+        background: rgba(255,255,255,0.05); 
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
 }
